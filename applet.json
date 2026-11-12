@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "id": "linspectacles-crypto-registry",
+  "name": "Crypto Registry",
+  "version": "0.0.8",
+  "author": "brunonlinespace",
+  "editor": "brunonlinespace",
+  "publisher": "brunonlinespace",
+  "order": 25,
+  "entrypoint": "crypto_registry/applet.py",
+  "factory": "create_applet",
+  "standalone": "standalone.py",
+  "description": "Read-only Linux Kernel Crypto API registry inspector for /proc/crypto, preserving registered implementations and all reported per-entry metadata.",
+  "platforms": [
+    "linux"
+  ],
+  "read_only": true,
+  "organization_id": "linspectacles",
+  "organization_url": "https://github.com/linspectacles/",
+  "repository": "https://github.com/linspectacles/crypto-registry"
+}
